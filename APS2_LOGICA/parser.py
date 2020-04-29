@@ -7,7 +7,7 @@ class Parser():
         self.pg = ParserGenerator(
             # A list of all token names accepted by the parser.
             ['NUMBER', 'PRINT', 'OPEN_PAREN', 'CLOSE_PAREN',
-             'SEMI_COLON', 'SUM', 'SUB']
+             'SEMI_COLON', 'SUM', 'SUB','MULT','DIV']
         )
 
    
